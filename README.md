@@ -12,8 +12,7 @@ This project focuses on sentiment analysis of social media data using data scien
 - Visualization of sentiment analysis results through graphs and charts.
 
 ## Installation
-1. Clone the repository: git clone https://github.com/yourusername/social-media-sentiment-analysis.git
-2. Install the required dependencies: pip install -r requirements.txt
+ Install the required dependencies: pip install -r requirements.txt
 
 ## Usage
 1. Prepare your social media dataset or use provided sample data.
