@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Social Media Sentiment Analysis</title>
+</head>
+<body>
+    <h1>Social Media Sentiment Analysis</h1>
+
+    <form action="/analyze" method="post">
+        <label for="userInput">Enter your text:</label><br>
+        <textarea id="userInput" name="userInput" rows="4" cols="50"></textarea><br>
+        <input type="submit" value="Analyze">
+    </form>
+
+    <!-- Display sentiment analysis results here -->
+    <div>
+        <h2>Analysis Result:</h2>
+        <p>Sentiment: <span id="sentiment"></span></p>
+    </div>
+</body>
+</html>
